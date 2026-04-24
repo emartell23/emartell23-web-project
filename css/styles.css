@@ -3,7 +3,7 @@ body {
     font-family: "Times New Roman", Times, serif;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: black;
 }
 
 /* Center the page content */
@@ -15,7 +15,7 @@ main {
 
 /* Navigation bar */
 nav {
-    background-color: #2c3e50;
+    background-color: darkslategrey;
     padding: 12px 20px;
     text-align: center;
 }
@@ -29,7 +29,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #1abc9c;
+    color: cyan
 }
 
 /* Headings */
@@ -37,18 +37,18 @@ h1 {
     text-align: center;
     font-size: 40px;
     margin-top: 20px;
-    color: #2c3e50;
+    color: darkslategray;
 }
 
 h2 {
     font-size: 28px;
     margin-top: 30px;
-    color: #34495e;
+    color: darkgrey;
 }
 
 h3 {
     font-size: 22px;
-    color: #7f8c8d;
+    color: darkgrey;
 }
 
 /* Paragraphs */
@@ -60,7 +60,7 @@ p {
 
 /* Lists */
 ul {
-    background-color: #ffffff;
+    background-color: white;
     padding: 15px 25px;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
