@@ -32,6 +32,42 @@ nav a:hover {
     color: cyan
 }
 
+nav button {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    color: cyan;
+    border-color: cyan;
+}
+.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+.dark-mode ul,
+.dark-mode form {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+}
+
+.dark-mode nav {
+    background-color: #000;
+}
+
+.dark-mode a {
+    color: lightblue;
+}
+.dark-mode button {
+    background-color: #333;
+    color: white;
+}
+
+
 /* Headings */
 h1 {
     text-align: center;
