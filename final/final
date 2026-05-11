@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenTech Solutions - Sustainable Innovation</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="greentech-logo.jpg" alt="GreenTech Solutions Logo">
+            <h1>GreenTech Solutions</h1>
+        </div>
+        <nav>
+            <ul>
+		<li><a href="index.html">Menu</a></li>
+                <li><a href="final.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products/Services</a></li>
+                <li><a href="blog.html">Blog/Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       
+       
+        <section id="newsletter-signup">
+            <h3>Stay Informed</h3>
+            <p>Subscribe to our newsletter for the latest news, insights, and updates on sustainable technology.</p>
+            <form id="newsletter-form" action="subscribe.php" method="post">
+                <div class="form-group">
+                    <label for="newsletter-email">Email Address:</label>
+                    <input type="email" id="newsletter-email" name="email" placeholder="your@email.com" required>
+                </div>
+                <button type="submit" class="button">Sign Up</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="terms.html">Terms of Service</a></li>   
+            </ul>
+        </nav>
+        <p>&copy; 2025 GreenTech Solutions </p>
+    </footer>
+
+    <script src="script2.js"></script>
+</body>
+</html>
